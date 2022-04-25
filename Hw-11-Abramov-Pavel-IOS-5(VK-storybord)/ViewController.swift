@@ -9,9 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var avatarChange: UIImageView!{
+    
+    @IBOutlet weak var avatarImage: UIImageView! {
         didSet {
-            avatarChange.layer.cornerRadius = avatarChange.bounds.height / 2
+            avatarImage.layer.cornerRadius = avatarImage.bounds.height / 2
     }
 }
     
