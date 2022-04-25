@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var avatarChange: UIImageView!{
+        didSet {
+            avatarChange.layer.cornerRadius = avatarChange.bounds.height / 2
+    }
+}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
