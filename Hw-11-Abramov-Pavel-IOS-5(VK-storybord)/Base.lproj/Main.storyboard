@@ -221,9 +221,6 @@
                             <constraint firstItem="dNm-Mr-9Ci" firstAttribute="top" secondItem="zv6-Fm-9JH" secondAttribute="bottom" constant="8" id="ysA-D8-aEb"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="avatarChange" destination="qpW-C7-L9t" id="VG0-jc-aTa"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
